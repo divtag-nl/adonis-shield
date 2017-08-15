@@ -1,4 +1,6 @@
 # Adonis Shield 🛡️
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/adonisjs/adonis-shield.svg)](https://greenkeeper.io/)
 | Silver shield for common web attacks.
 
 Adonis shield is middleware to standard HTTP websites to protect themselves from common web attacks like **xss**, **csp** and **csrf**.
