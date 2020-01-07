@@ -18,7 +18,7 @@ const nodeCookie = require('node-cookie')
 
 class Shield {
   constructor (Config) {
-    this.config = Config.merge('shield', require('../../example/config.js'))
+    this.config = Config.merge('shield', require('../../default/config.js'))
     this.cspNonce = uuid.v4()
     this.appSecret = Config.get('app.appKey')
   }
